@@ -17,6 +17,7 @@ body {
     background-color: #323540 !important;
     background-size: cover;
     margin-left: 0px !important;
+    transition: all 0.5s ease-out;
     z-index: 10;
   }
 
@@ -28,7 +29,7 @@ body {
   }  
 
   .customNav li  a{
-    color: #92c9ca !important;
+    color: #05cdff !important;
   }
 
 /* .customNav2 a {
@@ -36,12 +37,12 @@ body {
 } */
 
 
-.navbar-brand {
-    font-size: 20pt !important;
-    background-color: #92c9ca !important;
+  .navbar-brand {
+    font-size: 25pt !important;
+    font-family: 'Nabla', cursive;
     text-decoration: none !important;
     padding-right: 20px;
-    padding-left: 70px;
+    padding-left: 60px;
 }
 
   .nav-item {
@@ -54,8 +55,8 @@ body {
   }
 
   .jumbotron .profile-img {
-    width: 25%;
-    margin: 20px 0;
+    width: 30%;
+    margin: 5px 0;
     border-radius: 100%;
     border: 7px solid #eee;
     -moz-box-shadow:    0px 0px 20px rgb(0, 152, 198);
@@ -75,11 +76,11 @@ body {
 
   .jumboText {
     font-weight: 100;
-    font-size: 50px;
+    font-size: 40px;
     color: lightgrey;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .jumboText h1 {
@@ -89,6 +90,63 @@ body {
   margin-top: 0;
 }
 
-.lead {
+hr.breakLine {
+  height: 20px;
+  border-style:groove;
+  border-color: rgba(0, 223, 248, 0.38);
+  border-width: 1px 0 0 0;
+  border-radius: 5px;
+}
 
+.conBox {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.conFont h1 {
+  text-align: center;
+}
+
+#skills img{
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.list-inline li{
+  padding-right: 3rem;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+
+/* Contact Form */
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.conCon {
+  background-color: rgb(40, 40, 40);
+}
+
+.conCon h1{
+  color: #eee;
 }
