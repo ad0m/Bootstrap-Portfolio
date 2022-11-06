@@ -1,0 +1,45 @@
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.customNav {
+    /* position: fixed; */
+    width: 100%;
+    height: 70px;
+    padding: 8px 16px 8px 0px;
+    /* background: url("../images/transparency.png"); */
+    background-color: #323540 !important;
+    background-size: cover;
+    margin-left: 0px !important;
+    z-index: 10;
+  }
+
+  .customNav a {
+    color: #323540 !important;
+    font-size: 15pt;
+    text-decoration: underline;
+    text-underline-offset: .5em;
+  }  
+
+  .customNav li  a{
+    color: #92c9ca !important;
+  }
+
+/* .customNav2 a {
+    color: #323540 !important;
+} */
+
+
+.navbar-brand {
+    font-size: 20pt !important;
+    background-color: #92c9ca !important;
+    text-decoration: none !important;
+    padding-right: 20px;
+    padding-left: 70px;
+}
+
+  .nav-item {
+    margin: 0px 15px;
+  }
+
