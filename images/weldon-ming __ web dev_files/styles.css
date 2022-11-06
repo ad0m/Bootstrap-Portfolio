@@ -139,11 +139,6 @@ margin-right: 10px;
   color: #eee;
 }
 
-.conCon p {
-  color: #eee;
-  padding-bottom: 2rem;
-}
-
 #contact form {
   width: 60%;
   margin: 20px auto;
@@ -152,7 +147,7 @@ margin-right: 10px;
 
 .btn:focus,.btn:active {	
   outline: none !important;
-
+  justify-content: center;
 }
 
 .btn-clear-light, .btn-clear-light:visited {

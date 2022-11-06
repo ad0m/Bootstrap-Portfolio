@@ -76,6 +76,28 @@
     </div>
 </section>
 
+
+<section class="Portfolio">
+  <div class="container-fluid conCon">
+  <div class="container conBox conFont">
+
+    <h1>About Me</h1>
+    <hr class="breakLine" />
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur explicabo nulla quis modi, facilis vel consectetur esse. Esse excepturi veniam similique, fugit minus, nostrum perspiciatis quo adipisci pariatur suscipit eum!</p>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
 <section id="skills">
   <div class="container conBox conFont">
 
@@ -95,83 +117,36 @@
 
   </div>
 
-  <section class="contact">
-    <div class="container-fluid conFont conBox conCon">
-  
-      <h1>Contact Me</h1>
+  <section id="contact">
+
+    <div class="container-fluid conCon">
+    <div class="container conBox conFont">
+
+      <h1>Contact</h1>
       <hr class="breakLine" />
-    
-    <div class="row ">
-      <div class="col-lg-6 mx-auto">
-        <div class="card mt-2 mx-auto p-4 bg-light">
-            <div class="card-body bg-light">
-       
-            <div class="container conBox">
-                <form id="contact-form" role="form">
 
-            <div class="controls">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">                            
-                        </div>
-                    </div>
+      <!-- Form HTML -->
+      <form action="#contact" method="post">
+        <fieldset class="form-group">
+          <input type="name" class="form-control" id="input_name" placeholder="Enter your Name" name="name">
+        </fieldset>
+        <fieldset class="form-group">
+          <input type="email" class="form-control" id="input_email" placeholder="Enter your E-mail Address" name="email">
+          <!--
+							<small class="">I'll never share your email with anyone else.</small>
+							-->
 
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."><textarea>
-                            </div>
-                        </div>
-                    <div class="col-md-12">
-                        
-                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
-                            " value="Send Message" >
-                    
-                </div>
-          
-                </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <textarea class="form-control" id="input_project_info" rows="3" placeholder="Tell me about your project!" name="message"></textarea>
+        </fieldset>
 
+    <input type="submit" id="submit" class="btn btn-clear-light soft-transition" name="submit" value="Send">
+    </form>
+  </div>
+  </div>
 
-        </div>
-         </form>
-        </div>
-            </div>
-
-
-    </div>
-        <!-- /.8 -->
-
-    </div>
-    <!-- /.row-->
-
-</div>
-</div>
-
-
-
-
-  
-      </div>
-  </section>
+</section>
 
 
 
