@@ -1,3 +1,7 @@
+:root {
+  --fa-inverse: color #eee;
+}
+
 body {
   font-family: 'Asap', sans-serif;
   background: rgba(242, 242, 242, .6);
@@ -10,7 +14,7 @@ body {
 }
 
 .customNav {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     height: 70px;
     padding: 8px 16px 8px 0px;
@@ -29,7 +33,7 @@ body {
   }  
 
   .customNav li  a{
-    color: #05cdff !important;
+    color: rgb(0, 152, 198) !important;
   }
 
 /* .customNav2 a {
@@ -135,7 +139,7 @@ margin-right: 10px;
   background-color: rgb(40, 40, 40);
 }
 
-.conCon h1{
+.conCon h1, h2 {
   color: #eee;
 }
 
@@ -155,6 +159,7 @@ margin-right: 10px;
 
 }
 
+
 .btn-clear-light, .btn-clear-light:visited {
  color: #fff;
  background: none;
@@ -167,7 +172,23 @@ margin-right: 10px;
  background: #eee;
 }
 
+
 .btn-clear-light:active, .btn-clear-light:focus {
  color: #333;
  background-color: #ddd;
 }
+
+a:not([href]):not([tabindex]) {
+  color: #eee;
+  text-decoration: none;
+}
+
+.dataInput {
+  color: #eee !important;
+}
+
+.fa-brands, .fa-solid {
+  color: white;
+  padding-bottom: .15em;
+}
+
