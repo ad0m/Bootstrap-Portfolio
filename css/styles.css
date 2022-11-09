@@ -36,11 +36,6 @@ body {
     color: rgb(0, 152, 198) !important;
   }
 
-/* .customNav2 a {
-    color: #323540 !important;
-} */
-
-
   .navbar-brand {
     font-size: 25pt !important;
     font-family: 'Nabla', cursive;
@@ -102,16 +97,6 @@ hr.breakLine {
   border-radius: 5px;
 }
 
-.conBox {
-  margin-top: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.conFont h1 {
-  text-align: center;
-}
-
 #skills img{
     max-width: 150px;
     max-height: 150px;
@@ -126,26 +111,26 @@ hr.breakLine {
   justify-content: space-around;
 }
 
-
-/* Contact Form */
-
-
-.card{
-margin-left: 10px;
-margin-right: 10px;
+.conBox {
+  /* margin-top: 40px; */
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
+
+.conFont h1 {
+  text-align: center;
+}
+
 
 .conCon {
   background-color: rgb(40, 40, 40);
+  padding-bottom: 20px;
+  
 }
 
-.conCon h1, h2 {
+.conCon h1, h2, p {
   color: #eee;
-}
-
-.conCon p {
-  color: #eee;
-  padding-bottom: 2rem;
 }
 
 #contact form {
@@ -192,3 +177,69 @@ a:not([href]):not([tabindex]) {
   padding-bottom: .15em;
 }
 
+
+.cardWork {
+    /* width: 500px; */
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 5px;  
+}
+
+.cardWork img {
+    transition: all linear 0.25s;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    
+}
+
+.cardWork .cardName {
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.cardWork .infoButton {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: rgb(1, 205, 246);
+    transition: all linear 0.25s;
+}
+
+.cardWork .cardType {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.cardWork .infoButton .fa {
+    margin: 5px;
+}
+
+.cardWork:hover img {
+    filter: grayscale(100%);
+}
+
+.cardWork:hover .cardName {
+    bottom: 80px;
+}
+
+.cardWork:hover .cardType {
+    bottom: 60px;
+}
+
+.cardWork:hover .infoButton {
+    right: 40px;
+}
